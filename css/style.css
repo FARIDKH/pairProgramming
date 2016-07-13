@@ -1,0 +1,225 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.clearFix{
+    clear: both;
+}
+
+/*    Main     */
+
+.main{
+    width:100%;
+/*    Height-? */
+    background: #081C3D;
+}
+
+/*    Navigation     */
+.nav{
+    width:100%;
+    height: 160px;
+    background: #083266;
+}
+.navContainer{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+    background: white;
+}
+.siteName{
+    width: 300px;
+    height: 100%;
+    background: #1491C1;
+    display: inline-block;
+}
+.navMenu{
+    display: inline-block;
+    background: #083266;
+    width: 660px;
+    height: 160px;
+    float:right;
+}
+.navMenu ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navMenu ul li{
+    display: inline-block;
+    padding: 115px 20px 30px 20px;
+    border-right: 1px solid #093E76;
+    list-style: none;
+}
+
+.navMenu ul li a{
+    text-decoration: none;
+    color:#80D2F8;
+}
+.navMenu ul li a:hover{
+    color:#0855AF;
+}
+
+.siteName p{
+    margin: 0 ;
+    font-size: 40px;
+    color: wheat;
+    line-height: 160px;
+    text-align: center;
+    
+}
+/*    Container     */
+.center{
+    margin: 0 auto;
+    width: 960px;
+}
+
+/*    Left side     */
+
+.leftSide{
+    width: 300px;
+    height: 1000px;
+    background: #083165;
+    
+    float:left;
+}
+.search{
+    width: 100%;
+    height: 120px;
+    background: #0D5192;
+}
+.search p{
+    color:white;
+    font-size: 20px;
+    margin-left:20px;
+    padding-top: 20px;
+ margin-top: 0;
+margin-bottom: 15px;
+}
+
+.searchIcon{
+    width: 40px;
+    height: 30px;
+    color: white;
+    background: #1491C1;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+input[type="search"]{
+    width: 220px;
+    height: 35px;
+    margin-left:20px;
+    background: #07366B;
+    border: 0;
+}
+.firstP h1{
+    color: white;
+        margin-left:20px;
+}
+
+.firstP ul{
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+.firstP ul li{
+    list-style: none;
+    border-bottom: 1px solid #0C4680;
+    padding: 10px 0 10px 0;
+}
+.firstP ul li a{
+    text-decoration: none;
+    color: #1491C1;
+}
+
+.section2 h1{
+    color: white;
+    margin: 15px 0 0 20px;
+    
+    
+}
+
+.info{
+    position: relative;
+    border-bottom: 1px solid #1491C1;
+    height: 115px;
+}
+
+.info img{
+    width: 65px;
+    height: 60px;
+    border: 3px solid white;
+    margin: 35px 0 0 20px;
+    float: left;
+}
+
+.info p{
+    color: #1491C1;
+    font-size: 12px;
+    float: left;
+    margin: 35px 0 0 10px;
+}
+
+input[name="more"]{
+    background: #1491C1;
+    position: absolute;
+    top: 75px;
+    left: 105px;
+    width: 50px;
+    height: 25px;
+    border: 0;
+    color: white;
+}
+
+
+
+/*    Right side     */
+.rightSide {
+    width: 660px;
+    height: 1000px;
+    background: #062C5B;
+    float: left;
+    
+}
+
+/*    Footer     */
+.footer{
+    width: 100%;
+    height: 375;
+
+}
+
+.footerMain{
+    width: 100%;
+    height: 265px;
+    background: #1491C1;
+}
+.footerContact{
+    width: 250px;
+    height: 230px;
+
+    float: left;
+    margin: 15px 40px 0 40px;
+}
+.left{
+    margin-left: 50px;
+}
+.footerContact h3{
+    color:white;
+    padding: 10px 0 0 0;
+}
+.footerContact img{
+   float: left;
+  margin:10px 0 0 0;
+}
+.text{
+    font-size: 13px;
+    color: white;
+    
+}
+.footerInfo{
+    width: 100%;
+    height: 80px;
+    background: white;
+}
